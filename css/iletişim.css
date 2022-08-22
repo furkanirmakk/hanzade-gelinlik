@@ -1,0 +1,43 @@
+#iletişim {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;  
+    padding-right: 3rem;
+    text-align: center;
+    font-style: italic;
+
+} 
+
+.flex-container2{
+    width: 1600px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #1ABC9B
+
+
+}
+
+#iletişim h4 {
+    font-size: 2rem;
+}
+
+#iletişim p {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+
+/*.col {
+    margin: 15rem;
+    position: sticky;
+    float: left;
+
+}*/
+
+.container3{
+    margin-left: 20rem;
+    margin-top: 0%;
+
+}
