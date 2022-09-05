@@ -18,12 +18,19 @@ body {
 
 a {
     text-decoration: none;
+    
 }
 
 ul {
     list-style-type: none;
 }
 
+p{
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    color: #FF5757;
+}
 
 .btn {
     margin-top: 2rem;
@@ -77,25 +84,33 @@ ul {
 /*Navbar*/
 
 nav {
+   
     width: 100%;
     font-family: 'Libre Baskerville', serif;
-    background-color: black;
-    opacity: 0.8;
-    color: #fff;
+    background-color: white;
+    color: #FF5757 ;
     padding-top: 2rem;
     padding-bottom: 2rem;
     position: fixed;
+    transition: 2s;
+    
+        -webkit-box-shadow: 0 10px 6px -6px #777;
+        -moz-box-shadow: 0 10px 6px -6px #777;
+        box-shadow: 0 10px 6px -6px #777;
+    
 }
 
 #logo-box {
     float: left;
     padding-top: 0.5rem;
-}
+    text-align: center;
+    font-family:'Libre Baskerville', serif;
 
+}
 #logo-box .logo {
-    color: #fff;
+    color:  #FF5757;
     font-weight: 700;
-    font-size: 3.2rem;
+    font-size: 2.5rem;
 
 }
 
@@ -109,7 +124,7 @@ nav {
 }
 
 #nav-links .nav-link {
-    color: #fff;
+    color: #FF5757 ;
     font-size: 1.6rem;
     font-weight: 700;
     display: block;
@@ -121,12 +136,6 @@ nav {
 #nav-links .nav-link:hover {
     color: #1ABC9B;
 }
-
-
-
-
-
-
 
 .social {
     margin: 0 auto;
@@ -183,28 +192,6 @@ a.link {
     color: inherit;
 }
 
-footer {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    background-color: black;
-    opacity: 0.8;
-    color: #fff;
-    text-align: center;
-    display: flexbox;
-}
-
-footer h4 {
-    font-size: 2rem;
-}
-
-footer p {
-    font-size: 1.7rem;
-    margin-top: 1rem;
-}
-
-footer li {
-    display: inline-block;
-}
 
 .modeller {
     padding-top: 6rem;
@@ -216,6 +203,47 @@ footer li {
     margin-left: 12rem;
     display: inline-block;
 }
-.button{
-    width: 15rem;
+
+.anafoto{
+   width: 880px;
+   height: 608px;
+   text-align: center;
+   justify-content: center;
+   margin-left: 300px;
+   padding-bottom: 30px;
+}
+
+.foto{
+    margin-left: 500px;
+    padding-bottom: 30px;
+}
+.paragraf{
+    padding-top: 30px;
+    font-size: large;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: black;
+}
+
+.yukarı{
+    color: #212529;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 680px;
+    padding-bottom: 30px
+   
+}
+.hanzade{
+    margin-left: 510px;
+    text-align:justify;
+    justify-content: end;
+    padding-bottom: 30px;
+}
+
+.tüy{
+    margin-left: 615px;
+    padding: 0% ;
+    width: 300px;
 }

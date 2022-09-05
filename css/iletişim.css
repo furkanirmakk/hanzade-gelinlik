@@ -1,22 +1,39 @@
 #iletişim {
+    width: 100%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     padding-left: 3rem;  
     padding-right: 3rem;
     text-align: center;
     font-style: italic;
-
+    margin-top: auto;
+    opacity: 1.2;
 } 
+#iletişim2 {
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: center;
+    font-style: italic;
+    margin-top: 5rem;
+    
+}
+
+ 
 
 .flex-container2{
+    display: flex;
+    justify-content: space-around;
     width: 1600px;
     margin-top: 0%;
     margin-bottom: 0%;
     margin-right: 0%;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    background-color: #1ABC9B
-
+    
+    
 
 }
 
@@ -29,15 +46,23 @@
     margin-top: 1rem;
 }
 
-/*.col {
-    margin: 15rem;
+.col {
+   
+    margin-top: 5rem;
     position: sticky;
-    float: left;
-
-}*/
+    display: flexbox;
+    
+}
 
 .container3{
-    margin-left: 20rem;
+    text-align: center;
+    padding-bottom: 30px;
     margin-top: 0%;
-
+    
+}
+.clearfix{
+    overflow: auto;
+    content: "";
+    clear: both;
+    display: table;
 }
