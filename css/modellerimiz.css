@@ -24,7 +24,7 @@ body{
     width: 500%;
     height: 500px;
     display: flex;
-    
+   
 }
 
 .slides input{
@@ -47,8 +47,9 @@ body{
     position: absolute;
     width: 500px;
     margin-top: -40px;
+    
     display: flex;
-    justify-content: center;
+    justify-content: left;
     
 }
 
@@ -97,6 +98,22 @@ body{
 #radio9:checked ~ .first{
     margin-left: -140;
 }
+#radio10:checked ~ .first{
+    margin-left: -160;
+}
+#radio11:checked ~ .first{
+    margin-left: -180;
+}
+#radio12:checked ~ .first{
+    margin-left: -200;
+}
+#radio13:checked ~ .first{
+    margin-left: -220;
+}
+#radio14:checked ~ .first{
+    margin-left: -240;
+}
+
 
 
 .zoom img {
