@@ -86,7 +86,7 @@ p{
 nav {
    
     width: 100%;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Caveat', cursive;
     background-color: white;
     color: #FF5757 ;
     padding-top: 2rem;
@@ -101,10 +101,11 @@ nav {
 }
 
 #logo-box {
+    width: 40%;
     float: left;
     padding-top: 0.5rem;
     text-align: center;
-    font-family:'Libre Baskerville', serif;
+    font-family: 'Caveat', cursive;
 
 }
 #logo-box .logo {
@@ -116,6 +117,8 @@ nav {
 
 #nav-links {
     float: right;
+    width: 60%;
+    text-align: center;
 }
 
 #nav-links .nav-item {
@@ -204,25 +207,23 @@ a.link {
     display: inline-block;
 }
 
-.anafoto{
-   width: 880px;
-   height: 608px;
-   text-align: center;
-   justify-content: center;
-   margin-left: 300px;
-   padding-bottom: 30px;
-}
+
 
 .foto{
     margin-left: 500px;
     padding-bottom: 30px;
 }
-.paragraf{
-    padding-top: 30px;
-    font-size: large;
+#hakkımızda{
+    padding-bottom: 2.5%;
+}
+.hakkımızda{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: xx-large;
+    font-family: 'Caveat', cursive;
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
     color: black;
 }
 
@@ -236,14 +237,47 @@ a.link {
    
 }
 .hanzade{
-    margin-left: 510px;
-    text-align:justify;
-    justify-content: end;
-    padding-bottom: 30px;
+    margin-top: 12%;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    
+   
+    
+    
+}
+.slogan{
+    width: 100%;
+    text-align: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-family: 'Caveat', cursive;
 }
 
 .tüy{
-    margin-left: 615px;
-    padding: 0% ;
-    width: 300px;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+}
+.tüy2{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-top: 2.5%;
+    
+}
+.tüy3{
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-bottom: 7.5%;
+    
+}
+
+.kolaj{
+ margin-left: 12%;
+ padding-top: 2.5%;
+ padding-bottom: 2.5%;
 }

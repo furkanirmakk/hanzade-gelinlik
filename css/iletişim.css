@@ -2,38 +2,24 @@
     width: 100%;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    padding-left: 3rem;  
+    padding-left: 3rem;
     padding-right: 3rem;
     text-align: center;
     font-style: italic;
     margin-top: auto;
     opacity: 1.2;
-} 
-#iletişim2 {
-    width: 100%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    text-align: center;
-    font-style: italic;
-    margin-top: 5rem;
-    
 }
 
- 
-
-.flex-container2{
+.flex-container2 {
     display: flex;
     justify-content: space-around;
-    width: 1600px;
+    width: 10   0%;
     margin-top: 0%;
     margin-bottom: 0%;
     margin-right: 0%;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    
-    
+   
+
+
 
 }
 
@@ -47,20 +33,25 @@
 }
 
 .col {
-   
+
     margin-top: 5rem;
     position: sticky;
     display: flexbox;
-    
+
 }
 
-.container3{
+.container3 {
+    padding-left: auto;
+    padding-right: auto;
+    height: 60%;
+    padding-top: 2.5%;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 2.5%;
     margin-top: 0%;
-    
+
 }
-.clearfix{
+
+.clearfix {
     overflow: auto;
     content: "";
     clear: both;
