@@ -66,6 +66,7 @@ p{
     content: "";
     display: block;
     clear: both;
+    overflow: auto;
 }
 
 .container {
@@ -272,7 +273,7 @@ a.link {
     width: 20%;
     margin-left: 40%;
     margin-right: 40%;
-    padding-bottom: 7.5%;
+    padding-bottom: 5%;
     
 }
 

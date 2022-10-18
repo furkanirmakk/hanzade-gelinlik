@@ -9,8 +9,9 @@
 
 .mySlides{
     display: none;
-    width: 40%;
-}
+    width: 28%;
+    margin-left: 36%;
+}       
 
 .cursor{
     cursor: pointer;
@@ -19,11 +20,12 @@
 .next{
     cursor: pointer;
     position: absolute;
-    top: 40%;
+    
+    top: 340%;
     width: auto;
     padding: 2%;
     margin-top: -6%;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 300%;
     border-radius: 0 3px 3px 0;
@@ -31,8 +33,11 @@
     -webkit-user-select: none;
 }
 
+.prev{
+    left: 25%;
+}
 .next{
-    right: 60%;
+    right: 25%;
     border-radius: 3px 0 0 3px;
 }
 
@@ -42,11 +47,11 @@
 }
 
 .numbertext{
-    color: #f2f2f2;
+    color: white;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
-    top: 0;
+    top: 285%;
 }
 
 .caption-container{
@@ -62,5 +67,15 @@
 }
 .column{
     float: left;
-    width: 35%;
+    width: 16.66%;
 }
+
+.demo{
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover{
+    opacity: 1;
+}
+
